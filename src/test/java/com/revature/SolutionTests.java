@@ -14,7 +14,7 @@ public class SolutionTests {
 
 		int[] expected = new int[0];
 		int[] actual = Solution.solution(data, n);
-
+		
 		assertTrue(Arrays.equals(expected, actual));
 
 	}
@@ -27,7 +27,7 @@ public class SolutionTests {
 
 		int[] expected = { 1, 4 };
 		int[] actual = Solution.solution(data, n);
-
+		
 		assertTrue(Arrays.equals(expected, actual));
 	}
 
